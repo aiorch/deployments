@@ -14,8 +14,8 @@ from langchain.embeddings import HuggingFaceBgeEmbeddings
 
 repo_path = "docs"
 
-# model_name = "BAAI/bge-large-en-v1.5"
-model_name = "BAAI/bge-base-en-v1.5"
+model_name = "BAAI/bge-large-en-v1.5"
+# model_name = "BAAI/bge-base-en-v1.5"
 model_kwargs = {"device": "cuda"}
 encode_kwargs = {"normalize_embeddings": True}
 embeddings = HuggingFaceBgeEmbeddings(
