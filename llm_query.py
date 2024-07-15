@@ -1,4 +1,3 @@
- llm
 from langchain.llms import HuggingFaceTextGenInference
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 
@@ -26,4 +25,3 @@ You are a helpful chatbot.</s>
 """
 response = llm(query)
 print(response)
-~               

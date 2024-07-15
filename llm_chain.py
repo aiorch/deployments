@@ -53,7 +53,7 @@ qa = RetrievalQA.from_chain_type(
 
 
 # RAG Query
-question = "How do I get started with Terraform?"
+question = "How do I get create RDS?"
 
 query = f"""<|system|>
 You are a Terraform expert.</s>
